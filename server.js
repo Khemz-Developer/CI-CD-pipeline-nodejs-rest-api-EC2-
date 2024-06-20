@@ -30,11 +30,7 @@ app.use("/api/carts", (req, res) => {
   });
 });
 
-app.use("/api/cart", (req, res) => {
-  return res.status(200).json({
-    message: "This is new feature change, a new route for products khemzdesign",
-  });
-});
+
 
 //error handler
 app.use(errorHandler);
